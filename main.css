@@ -7,6 +7,14 @@
 }
 
 .fighter-thumb {
-  height: 100px;
-  width: 100px;
+  height: 96px;
+  width: 96px;
+  transition: transform 0.2s, border 0.2s;
+  border: 2px solid transparent;
+}
+
+.fighter-thumb:hover {
+  transform: scale(1.15);
+  border: 2px solid #d33;
+  cursor: pointer;
 }
