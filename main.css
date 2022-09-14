@@ -1,0 +1,12 @@
+#fighters-grid {
+  display: flex;
+  width: 424px;
+  border: 2px solid black;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.fighter-thumb {
+  height: 100px;
+  width: 100px;
+}

@@ -17,10 +17,9 @@ console.log("fighters grid", fightersGrid)
 
 fighters.forEach((fighter) => {
   let div = document.createElement("div")
+  div.classList.add("fighter-thumb")
   let img = document.createElement("img")
   img.src = fighterUrl(fighter)
-  div.style.height = "100px"
-  div.style.width = "100px"
   img.style.height = "100px"
   img.style.width = "100px"
   div.append(img)
