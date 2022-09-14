@@ -1,8 +1,13 @@
+#nav {
+  background-color: red; 
+}
+
+
 #fighters-grid {
   display: flex;
   width: 424px;
-  border: 2px solid black;
   flex-wrap: wrap;
+  margin: 0 auto;
   gap: 8px;
 }
 
